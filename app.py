@@ -13,7 +13,7 @@ def home():
         "produto": "OrbitGuard API",
         "propósito": "Plataforma de monitoramento de telemetria e integridade de microssatélites em órbita baixa (LEO).",
         "ODS_conectado": "ODS 9 - Indústria, Inovação e Infraestrutura",
-        "equipe": "Márcio Hitoshi Tahyra, Aline Fernandes, Camilly Ishida, Julia Galvão, Jéssica Costacurta",
+        "equipe": "Márcio Hitoshi Tahyra, Jéssica Costacurta",
         "status_infraestrutura": "100% Operacional"
     }
 
