@@ -11,19 +11,18 @@ jobs:
 
     steps:
     - name: Checkout do código
-      uses: actions/checkout@v3
-
+      uses: actions/checkout@v4 
     - name: Configurar o Python
-      uses: actions/setup-python@v4
+      uses: actions/setup-python@v5
       with:
         python-version: '3.11'
 
     - name: Fazer Login na Azure de forma segura
-      uses: azure/login@v1
+      uses: azure/login@v2 
       with:
         creds: ${{ secrets.AZURE_CREDENTIALS }}
 
     - name: Deploy no Azure App Service
-      uses: azure/webapps-deploy@v2
+      uses: azure/webapps-deploy@v3
       with:
         app-name: 'orbitguard-api-gs'
