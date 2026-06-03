@@ -25,4 +25,4 @@ jobs:
     - name: Deploy no Azure App Service
       uses: azure/webapps-deploy@v3
       with:
-        app-name: 'orbitguard-api-gs'
+        app-name: 'orbitguard-api-prod'
